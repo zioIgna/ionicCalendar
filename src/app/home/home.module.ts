@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { NgCalendarModule } from 'ionic2-calendar';
+import { CalModalPageModule } from '../pages/cal-modal/cal-modal.module';
 
 
 @NgModule({
@@ -12,7 +14,9 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    NgCalendarModule,
+    CalModalPageModule
   ],
   declarations: [HomePage]
 })
