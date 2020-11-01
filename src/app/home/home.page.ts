@@ -30,19 +30,19 @@ export class HomePage {
  
   ngOnInit() {}
  
-  // // Change current month/week/day
-  // next() {
-  //   this.myCal.slideNext();
-  // }
+  // Change current month/week/day
+  next() {
+    this.myCal.slideNext();
+  }
  
-  // back() {
-  //   this.myCal.slidePrev();
-  // }
+  back() {
+    this.myCal.slidePrev();
+  }
  
-  // // Selected date reange and hence title changed
-  // onViewTitleChanged(title) {
-  //   this.viewTitle = title;
-  // }
+  // Selected date reange and hence title changed
+  onViewTitleChanged(title) {
+    this.viewTitle = title;
+  }
  
   // // Calendar event was clicked
   // async onEventSelected(event) {
